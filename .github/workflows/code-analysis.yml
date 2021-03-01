@@ -8,7 +8,7 @@ on:
       - 'Packages/**'
       - 'ProjectSettings/**'
       - 'UserSettings/**'
-  pull-request:
+  pull_request:
     paths-ignore:
       - 'Assets/TutorialInfo/**'
       - 'Assets/Shared/**'
