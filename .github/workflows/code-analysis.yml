@@ -13,5 +13,6 @@ jobs:
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@master
         with:
-          directory: 'Assets/Scripts'
+          verbos: true
+          max-allowed-issues: 10
           
