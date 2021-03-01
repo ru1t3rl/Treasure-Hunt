@@ -1,12 +1,7 @@
 ---
 engines:
   sonarscharp:
-    exclude_paths:
-      - "Assets/TutorialInfo/**"
-      - "Assets/Shared/**"
-      - "Packages/**"
-      - "ProjectSettings/**"
-      - "UserSettings/**"
+    base_dir: "Assets/Scripts"
   duplication:
     exclude_paths:
       - "Assets/TutorialInfo/**"
