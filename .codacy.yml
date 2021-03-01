@@ -1,0 +1,25 @@
+---
+engines:
+  sonarscharp:
+    exclude_paths:
+      - "Assets/TutorialInfo/**"
+      - "Assets/Shared/**"
+      - "Packages/**"
+      - "ProjectSettings/**"
+      - "UserSettings/**"
+  duplication:
+    exclude_paths:
+      - "Assets/TutorialInfo/**"
+      - "Assets/Shared/**"
+      - "Packages/**"
+      - "ProjectSettings/**"
+      - "UserSettings/**"
+    config:
+      languages:
+        - "C#"
+exclude_paths:
+  - "Assets/TutorialInfo/**"
+      - "Assets/Shared/**"
+      - "Packages/**"
+      - "ProjectSettings/**"
+      - "UserSettings/**"
