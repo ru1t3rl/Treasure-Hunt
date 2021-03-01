@@ -2,7 +2,11 @@
 engines:
   sonarscharp:
     base_sub_dir: "Assets/Scripts"
+    exclude_paths:
+      - "SimpleCameraController.cs"
 exclude_paths:
+  - '.github/workflows/**'
+  - '.vscode/**'
   - 'Assets/TutorialInfo/**'
   - 'Assets/Shared/**'
   - 'Packages/**'
