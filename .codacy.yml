@@ -1,0 +1,10 @@
+---
+engines:
+  sonarscharp:
+    base_sub_dir: "Assets/Scripts"
+exclude_paths:
+  - 'Assets/TutorialInfo/**'
+  - 'Assets/Shared/**'
+  - 'Packages/**'
+  - 'ProjectSettings/**'
+  - 'UserSettings/**'
