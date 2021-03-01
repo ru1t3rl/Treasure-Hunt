@@ -1,20 +1,6 @@
 name: Codacy Analysis CLI
 
-on: 
-  push:
-    paths-ignore:
-      - 'Assets/TutorialInfo/**'
-      - 'Assets/Shared/**'
-      - 'Packages/**'
-      - 'ProjectSettings/**'
-      - 'UserSettings/**'
-  pull_request:
-    paths-ignore:
-      - 'Assets/TutorialInfo/**'
-      - 'Assets/Shared/**'
-      - 'Packages/**'
-      - 'ProjectSettings/**'
-      - 'UserSettings/**'
+on: [push, pull_request]
 
 jobs:
   codacy-analysis-cli:
